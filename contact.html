@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact - TechSage Guide</title>
+  <title>Contact Us - TechSage Guide</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,7 +18,19 @@
   </header>
   <main>
     <h2>Contact Us</h2>
-    <p>Have questions or suggestions? Email us at <strong>contact@techsageguide.com</strong>.</p>
+    <p>Have questions or feedback? We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+    <form action="https://formspree.io/f/mdkzybrn" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
   </main>
   <footer>
     <p>&copy; 2025 TechSage Guide. All rights reserved.</p>
